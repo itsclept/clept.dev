@@ -1,0 +1,15 @@
+.link-item {
+    display: block-inline;
+    font-size: 1.125rem;
+    color: var(--color-text);
+    transition: all 0.2s ease;
+    margin-bottom: 1rem;
+    margin-inline-start: 0.5rem;
+    margin-inline-end: 0.5rem;
+    text-decoration: none;
+  
+    &:hover {
+      color: var(--color-accent);
+    }
+}
+  

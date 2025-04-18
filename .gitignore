@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output
+node_modules
+dist
+dist-ssr
+*.local
+purge-report/
+
+# Vite/TS cache
+.vite/
+*.tsbuildinfo
+*.tsbuildinfo.tmp
+*.rts2_cache_cjs
+*.rts2_cache_esm
+
+# Editor-specific
+.vscode/
+*.code-workspace
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files (Windows/macOS)
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# SCSS artifacts
+*.css.d.ts
+
+# Tailwind output (if using CLI)
+tailwind.css
